@@ -1,3 +1,35 @@
-body{ font-family: 'Times New Roman', Times, serif;
+body{ font-family:Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
 
+header{
+
+   background-color: darkblue;
+   padding: 15px;
+   color: #f5f5f5;
+   
+}
+nav{
+    display: flex;
+    gap: 40px;
+   color: #f5f5f5;
+   
+
+   
+}
+nav a{
+    color: #f5f5f5;
+    text-decoration: none;
+    display: flex;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    padding: 20px;
 }
